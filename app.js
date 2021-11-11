@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('AWS For the Win!'));
+app.get('/', (req, res) => res.send('This has been reviewed!'));
 app.get('/', (req, res) => res.send('This has been reviewed!'));
 
 app.listen(port);
